@@ -1,0 +1,50 @@
+# ==================== 敏感密钥（绝对禁止提交） ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== 暂不推送的章节 ====================
+chapter07-Agents/
+chapter08-Middleware/
+chapter09-memory/
+chapter10-RAG/
+todo_workspace/
+
+# ==================== Python 缓存 ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+
+# ==================== 测试缓存 ====================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==================== IDE 配置 ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ==================== Jupyter Notebook ====================
+.ipynb_checkpoints/
+
+# ==================== RAG 解析临时文件 ====================
+parsed_files/
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 虚拟环境 ====================
+venv/
+.venv/
+env/
+
+# ==================== 日志 ====================
+*.log
